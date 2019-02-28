@@ -6,4 +6,4 @@ DEFINE basic ${CDS_INST_DIR}/tools/dfII/etc/cdslib/basic
 DEFINE cellTechLib ./cellTechLib 
 DEFINE sample ${CDS_INST_DIR}/tools/dfII/samples/cdslib/sample 
 DEFINE ROD ./ROD
-DEFINE osc_freq_div /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/osc_freq_div
+DEFINE osc_freq_div ~/ICD-lab/oscillator_freq_div/cell_design/osc_freq_div
