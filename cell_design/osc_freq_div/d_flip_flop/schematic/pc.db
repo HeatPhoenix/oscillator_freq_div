@@ -1,0 +1,18 @@
+#
+osc_freq_div inverter symbol
+I2
+#
+osc_freq_div d_latch symbol
+I1
+I0
+#ISCELL
+basic ipin symbol
+PIN0
+PIN1
+#ISCELL
+analogLib gnd symbol
+I3
+#ISCELL
+basic opin symbol
+PIN3
+PIN2
