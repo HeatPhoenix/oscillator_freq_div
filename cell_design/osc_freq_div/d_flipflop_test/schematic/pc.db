@@ -1,0 +1,28 @@
+#
+osc_freq_div d_flip_flop symbol
+I15
+#
+analogLib cap symbol
+C1
+C2
+C0
+C3
+#
+analogLib vpulse symbol
+V2
+V1
+#
+analogLib vdc symbol
+V0
+#ISCELL
+analogLib vdd symbol
+I2
+#ISCELL
+analogLib gnd symbol
+I8
+I13
+I6
+I5
+I4
+I3
+I14
