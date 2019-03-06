@@ -1,0 +1,16 @@
+#
+analogLib cap symbol
+C0
+#
+analogLib res symbol
+R0
+#
+osc_freq_div inverter symbol
+I1
+I0
+#ISCELL
+basic ipin symbol
+PIN0
+#ISCELL
+basic opin symbol
+PIN2
