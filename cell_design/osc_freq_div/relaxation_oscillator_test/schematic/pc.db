@@ -1,0 +1,12 @@
+#
+osc_freq_div relaxation_oscillator symbol
+I7
+#
+analogLib vdc symbol
+V0
+#ISCELL
+analogLib vdd symbol
+I2
+#ISCELL
+analogLib gnd symbol
+I6
