@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager.exe version Exp 01/19/2010 20:09 (ocelot-linux) $
 \o Sub version:		sub-version none
-\o Arguments:		-unmapped -mpssession icfb14429 -mpshost ee4610.ewi.tudelft.nl 
+\o Arguments:		-unmapped -mpssession icfb4759 -mpshost ee4610.ewi.tudelft.nl 
 \o Working Directory:	ee4610.ewi.tudelft.nl:/home/dmberg/ICD-lab/oscillator_freq_div/cell_design
 \o Extended color mode (TrueColor 32 0xb5) in use.
 \o Warning: LIB basic from File /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/cds.lib Line 5 redefines
@@ -15,9 +15,35 @@
 MPS service: map window
 \o Log file is "/home/dmberg/ICD-lab/oscillator_freq_div/cell_design/libManager.log".
 Opening libManager window.
-Main selection: osc_freq_div d_latch schematic
-\o Opening design file through session server.
-MPS request: edit design
+Main selection: osc_freq_div div3 schematic
+Invoking command (editRename).
+Showing dialog "Rename Cell osc_freq_div/div3" (renameDialog).
+Dialog activated Ok in "Rename Cell osc_freq_div/div3" (renameDialog).
+\o Renaming cell "div3" to "div3_ph" in library "osc_freq_div".
+Showing dialog "Rename Monitor - 10 Files" (copyProgressDialog).
+\o Copying osc_freq_div/div3/schematic
+\o Copying osc_freq_div/div3/symbol
+\o Copying osc_freq_div/div3/prop.xx
+\o Transfer of 10 files phase complete in  0:00:00
+Closing dialog "Rename Monitor - 10 Files" (copyProgressDialog).
+\o Performing instance update.
+\o Start running ccpCdbaUpdtr ...
+\o *WARNING* LIB basic from File /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/cds.lib Line 5 redefines
+\o ccpCdbaUpdtr ran successfully ...
+\o LIB basic from File /u/55/55/cadence/DesignKits/tsmc/tsmc90nm/cds.lib
+\o Insert UNDEFINE basic
+\o before DEFINE basic
+\o     in /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/cds.lib
+\o Or remove or comment out DEFINE basic
+\o     in /u/55/55/cadence/DesignKits/tsmc/tsmc90nm/cds.lib
+\o to suppress this warning message.
+\o Initializing from libInit.il for library tsmcN90rf...
+\o    --  upBulk.il
+\o    --  tsmcN90rf_updateCDFs.il
+\o    --  tsmc_esti.ile
+\o    --  tsmcN90rf_Tool_v11c.cxt
+\o    --  tsmcN90rf.cxt
+Closing dialog "Rename Cell osc_freq_div/div3" (renameDialog).
 \o Warning: LIB basic from File /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/cds.lib Line 5 redefines
 \o LIB basic from File /u/55/55/cadence/DesignKits/tsmc/tsmc90nm/cds.lib
 \o Insert UNDEFINE basic
@@ -27,24 +53,33 @@ MPS request: edit design
 \o     in /u/55/55/cadence/DesignKits/tsmc/tsmc90nm/cds.lib
 \o to suppress this warning message.
 MPS request: update library list
-Main selection: osc_freq_div d_flip_flop schematic
-\o Opening design file through session server.
-MPS request: edit design
-Main selection: osc_freq_div d_flip_flop symbol
-\o Opening design file through session server.
-MPS request: edit design
-Main selection: osc_freq_div d_latch schematic
-\o Opening design file through session server.
-MPS request: edit design
-Main selection: osc_freq_div d_latch symbol
-\o Opening design file through session server.
-MPS request: edit design
-Main selection: osc_freq_div d_flipflop_test schematic
-\o Opening design file through session server.
-MPS request: edit design
-Main selection: osc_freq_div d_latch_test
-\o Opening design file through session server.
-MPS request: edit design
+Main selection: osc_freq_div div3_test schematic
+Invoking command (editRename).
+Showing dialog "Rename Cell osc_freq_div/div3_test" (renameDialog).
+Dialog activated Ok in "Rename Cell osc_freq_div/div3_test" (renameDialog).
+\o Renaming cell "div3_test" to "div3_ph_test" in library "osc_freq_div".
+Showing dialog "Rename Monitor - 5 Files" (copyProgressDialog).
+\o Copying osc_freq_div/div3_test/schematic
+\o Transfer of 5 files phase complete in  0:00:00
+Closing dialog "Rename Monitor - 5 Files" (copyProgressDialog).
+\o Performing instance update.
+\o Start running ccpCdbaUpdtr ...
+\o *WARNING* LIB basic from File /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/cds.lib Line 5 redefines
+\o ccpCdbaUpdtr ran successfully ...
+\o LIB basic from File /u/55/55/cadence/DesignKits/tsmc/tsmc90nm/cds.lib
+\o Insert UNDEFINE basic
+\o before DEFINE basic
+\o     in /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/cds.lib
+\o Or remove or comment out DEFINE basic
+\o     in /u/55/55/cadence/DesignKits/tsmc/tsmc90nm/cds.lib
+\o to suppress this warning message.
+\o Initializing from libInit.il for library tsmcN90rf...
+\o    --  upBulk.il
+\o    --  tsmcN90rf_updateCDFs.il
+\o    --  tsmc_esti.ile
+\o    --  tsmcN90rf_Tool_v11c.cxt
+\o    --  tsmcN90rf.cxt
+Closing dialog "Rename Cell osc_freq_div/div3_test" (renameDialog).
 \o Warning: LIB basic from File /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/cds.lib Line 5 redefines
 \o LIB basic from File /u/55/55/cadence/DesignKits/tsmc/tsmc90nm/cds.lib
 \o Insert UNDEFINE basic
@@ -53,11 +88,105 @@ MPS request: edit design
 \o Or remove or comment out DEFINE basic
 \o     in /u/55/55/cadence/DesignKits/tsmc/tsmc90nm/cds.lib
 \o to suppress this warning message.
-Main selection: osc_freq_div d_latch_test schematic
 MPS request: update library list
-Main selection: osc_freq_div d_latch_test latch_test
+Main selection: osc_freq_div div3_ph
+Invoking command (editRename).
+Showing dialog "Rename Cell osc_freq_div/div3_ph" (renameDialog).
+Dialog activated Ok in "Rename Cell osc_freq_div/div3_ph" (renameDialog).
+\o Renaming cell "div3_ph" to "div3" in library "osc_freq_div".
+Showing dialog "Rename Monitor - 10 Files" (copyProgressDialog).
+\o Copying osc_freq_div/div3_ph/schematic
+\o Copying osc_freq_div/div3_ph/symbol
+\o Copying osc_freq_div/div3_ph/prop.xx
+\o Transfer of 10 files phase complete in  0:00:00
+Closing dialog "Rename Monitor - 10 Files" (copyProgressDialog).
+\o Performing instance update.
+\o Start running ccpCdbaUpdtr ...
+\o *WARNING* LIB basic from File /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/cds.lib Line 5 redefines
+\o ccpCdbaUpdtr ran successfully ...
+\o LIB basic from File /u/55/55/cadence/DesignKits/tsmc/tsmc90nm/cds.lib
+\o Insert UNDEFINE basic
+\o before DEFINE basic
+\o     in /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/cds.lib
+\o Or remove or comment out DEFINE basic
+\o     in /u/55/55/cadence/DesignKits/tsmc/tsmc90nm/cds.lib
+\o to suppress this warning message.
+\o Initializing from libInit.il for library tsmcN90rf...
+\o    --  upBulk.il
+\o    --  tsmcN90rf_updateCDFs.il
+\o    --  tsmc_esti.ile
+\o    --  tsmcN90rf_Tool_v11c.cxt
+\o    --  tsmcN90rf.cxt
+Closing dialog "Rename Cell osc_freq_div/div3_ph" (renameDialog).
+\o Warning: LIB basic from File /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/cds.lib Line 5 redefines
+\o LIB basic from File /u/55/55/cadence/DesignKits/tsmc/tsmc90nm/cds.lib
+\o Insert UNDEFINE basic
+\o before DEFINE basic
+\o     in /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/cds.lib
+\o Or remove or comment out DEFINE basic
+\o     in /u/55/55/cadence/DesignKits/tsmc/tsmc90nm/cds.lib
+\o to suppress this warning message.
+MPS request: update library list
+Main selection: osc_freq_div div3_ph_test schematic
+Invoking command (editRename).
+Showing dialog "Rename Cell osc_freq_div/div3_ph_test" (renameDialog).
+Dialog activated Ok in "Rename Cell osc_freq_div/div3_ph_test" (renameDialog).
+\o Renaming cell "div3_ph_test" to "div3_test" in library "osc_freq_div".
+Showing dialog "Rename Monitor - 5 Files" (copyProgressDialog).
+\o Copying osc_freq_div/div3_ph_test/schematic
+\o Transfer of 5 files phase complete in  0:00:00
+Closing dialog "Rename Monitor - 5 Files" (copyProgressDialog).
+\o Performing instance update.
+\o Start running ccpCdbaUpdtr ...
+\o *WARNING* LIB basic from File /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/cds.lib Line 5 redefines
+\o ccpCdbaUpdtr ran successfully ...
+\o LIB basic from File /u/55/55/cadence/DesignKits/tsmc/tsmc90nm/cds.lib
+\o Insert UNDEFINE basic
+\o before DEFINE basic
+\o     in /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/cds.lib
+\o Or remove or comment out DEFINE basic
+\o     in /u/55/55/cadence/DesignKits/tsmc/tsmc90nm/cds.lib
+\o to suppress this warning message.
+\o Initializing from libInit.il for library tsmcN90rf...
+\o    --  upBulk.il
+\o    --  tsmcN90rf_updateCDFs.il
+\o    --  tsmc_esti.ile
+\o    --  tsmcN90rf_Tool_v11c.cxt
+\o    --  tsmcN90rf.cxt
+Closing dialog "Rename Cell osc_freq_div/div3_ph_test" (renameDialog).
+\o Warning: LIB basic from File /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/cds.lib Line 5 redefines
+\o LIB basic from File /u/55/55/cadence/DesignKits/tsmc/tsmc90nm/cds.lib
+\o Insert UNDEFINE basic
+\o before DEFINE basic
+\o     in /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/cds.lib
+\o Or remove or comment out DEFINE basic
+\o     in /u/55/55/cadence/DesignKits/tsmc/tsmc90nm/cds.lib
+\o to suppress this warning message.
+MPS request: update library list
+Main selection: osc_freq_div div6_test schematic
 \o Opening design file through session server.
 MPS request: edit design
-Main selection: osc_freq_div d_latch_test schematic
+Main selection: osc_freq_div div6 symbol
 \o Opening design file through session server.
 MPS request: edit design
+Main selection: osc_freq_div div6 schematic
+\o Opening design file through session server.
+MPS request: edit design
+Main selection: osc_freq_div div6 symbol
+\o Opening design file through session server.
+MPS request: edit design
+Main selection: osc_freq_div div3_test schematic
+\o Opening design file through session server.
+MPS request: edit design
+\o Opening design file through session server.
+MPS request: edit design
+Main selection: osc_freq_div div2_test schematic
+\o Opening design file through session server.
+MPS request: edit design
+Main selection: osc_freq_div div6 symbol
+\o Opening design file through session server.
+MPS request: edit design
+Main selection: osc_freq_div div6 schematic
+\o Opening design file through session server.
+MPS request: edit design
+\o libManager is exiting.

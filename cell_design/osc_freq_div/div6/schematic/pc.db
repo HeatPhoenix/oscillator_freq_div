@@ -1,0 +1,15 @@
+#
+osc_freq_div div2 symbol
+I14
+#
+osc_freq_div div3 symbol
+I13
+#ISCELL
+basic ipin symbol
+PIN0
+#ISCELL
+basic opin symbol
+PIN11
+PIN12
+PIN13
+PIN5
