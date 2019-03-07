@@ -7,8 +7,8 @@ C1
 C0
 #
 analogLib vpulse symbol
-V1
 V2
+V1
 #
 analogLib vdc symbol
 V0
@@ -17,8 +17,8 @@ analogLib vdd symbol
 I2
 #ISCELL
 analogLib gnd symbol
-I4
-I8
 I6
-I5
+I4
 I3
+I8
+I5

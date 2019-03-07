@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      dmberg
 HostName                       icdvm15.ewi.tudelft.nl
-ProcessIdentifier              29140
-ProcessCreationTime_UTC        1551448369
-ProcessCreationTime_Readable   Fri Mar  1 14:52:49 2019 CET
+ProcessIdentifier              14469
+ProcessCreationTime_UTC        1551955325
+ProcessCreationTime_Readable   Thu Mar  7 11:42:05 2019 CET
 AppIdentifier                  /data/cad/Cadence/IC5/5.1.41HF143/tools/dfII/bin/32bit/libManager.exe
 OSType                         lnx86
 ReasonForPlacingEditLock       log file
 FilePathUsedToEditLock         /home/dmberg/ICD-lab/oscillator_freq_div/cell_design/libManager.log
-TimeEditLocked                 Fri Mar  1 14:52:54 2019 CET
+TimeEditLocked                 Thu Mar  7 11:42:09 2019 CET
