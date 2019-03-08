@@ -1,6 +1,6 @@
 #
 osc_freq_div div6 symbol
-I19
+I20
 #
 analogLib cap symbol
 C1
@@ -20,7 +20,7 @@ I2
 analogLib gnd symbol
 I8
 I13
-I6
 I5
-I4
 I14
+I6
+I4
