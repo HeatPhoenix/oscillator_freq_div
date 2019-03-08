@@ -1,0 +1,23 @@
+#
+osc_freq_div inverter symbol
+I5
+#
+osc_freq_div or_gate symbol
+I4
+#
+osc_freq_div nor_gate symbol
+I3
+#
+osc_freq_div d_flip_flop symbol
+I2
+I1
+I0
+#ISCELL
+basic ipin symbol
+PIN0
+#ISCELL
+basic opin symbol
+PIN4
+PIN2
+PIN1
+PIN3
