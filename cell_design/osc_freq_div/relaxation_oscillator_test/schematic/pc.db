@@ -1,4 +1,8 @@
 #
+analogLib cap symbol
+C1
+C0
+#
 osc_freq_div relaxation_oscillator symbol
 I7
 #
@@ -9,4 +13,6 @@ analogLib vdd symbol
 I2
 #ISCELL
 analogLib gnd symbol
+I9
+I8
 I6

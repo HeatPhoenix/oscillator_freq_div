@@ -8,14 +8,14 @@ M1
 M0
 #
 osc_freq_div inverter symbol
-I4
 I2
 I1
 I0
 #ISCELL
 basic ipin symbol
-PIN4
+PIN7
 PIN0
+PIN4
 #ISCELL
 basic opin symbol
 PIN6

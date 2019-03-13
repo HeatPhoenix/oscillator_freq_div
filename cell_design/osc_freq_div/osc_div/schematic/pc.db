@@ -1,0 +1,14 @@
+#
+osc_freq_div relaxation_oscillator symbol
+I2
+#
+osc_freq_div div6 symbol
+I1
+#ISCELL
+basic opin symbol
+PIN5
+PIN6
+PIN3
+PIN2
+PIN1
+PIN0

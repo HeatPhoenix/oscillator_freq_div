@@ -9,8 +9,6 @@ osc_freq_div inverter symbol
 I1
 I0
 #ISCELL
-basic ipin symbol
-PIN0
-#ISCELL
 basic opin symbol
+PIN3
 PIN2
