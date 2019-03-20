@@ -1,7 +1,7 @@
 #
 analogLib cap symbol
-C1
 C0
+C1
 #
 osc_freq_div relaxation_oscillator symbol
 I7
