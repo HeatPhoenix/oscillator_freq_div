@@ -12,3 +12,7 @@ PIN3
 PIN2
 PIN1
 PIN0
+#ISCELL
+basic iopin symbolr
+PIN4
+PIN7

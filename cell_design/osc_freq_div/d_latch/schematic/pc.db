@@ -21,10 +21,6 @@ basic opin symbol
 PIN6
 PIN2
 #ISCELL
-analogLib gnd symbol
-I7
-I6
-#ISCELL
-analogLib vdd symbol
-I8
-I9
+basic iopin symbolr
+PIN3
+PIN1

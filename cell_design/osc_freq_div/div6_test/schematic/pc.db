@@ -13,16 +13,8 @@ V3
 V1
 #
 analogLib vdc symbol
+V2
 V0
-#ISCELL
-analogLib vdd symbol
-I24
-I2
 #ISCELL
 analogLib gnd symbol
 I6
-I4
-I8
-I13
-I5
-I14
