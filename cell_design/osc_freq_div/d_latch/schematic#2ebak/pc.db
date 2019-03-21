@@ -1,24 +1,26 @@
 #
-tsmcN90rf nch symbol
+tsmcN90rf pch symbol
 M3
 M2
 #
-tsmcN90rf pch symbol
+tsmcN90rf nch symbol
 M1
 M0
 #
 osc_freq_div inverter symbol
 I2
+I1
+I0
 #ISCELL
 basic ipin symbol
-PIN4
-PIN8
+PIN7
 PIN0
+PIN4
 #ISCELL
 basic opin symbol
 PIN6
 PIN2
 #ISCELL
 basic iopin symbolr
-PIN1
 PIN3
+PIN1
