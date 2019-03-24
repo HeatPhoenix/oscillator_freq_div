@@ -1,0 +1,16 @@
+#
+osc_freq_div d_latch_small symbol
+I8
+I7
+#ISCELL
+basic ipin symbol
+PIN1
+PIN7
+PIN0
+#ISCELL
+basic opin symbol
+PIN2
+#ISCELL
+basic iopin symbolr
+PIN4
+PIN8

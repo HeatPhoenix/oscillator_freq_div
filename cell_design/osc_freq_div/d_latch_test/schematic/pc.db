@@ -1,10 +1,10 @@
 #
+osc_freq_div d_latch symbol
+I12
+#
 analogLib vdc symbol
 V0
 V3
-#
-osc_freq_div d_latch symbol
-I11
 #
 analogLib cap symbol
 C1

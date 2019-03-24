@@ -1,0 +1,20 @@
+#
+tsmcN90rf nch symbol
+M3
+M2
+#
+tsmcN90rf pch symbol
+M5
+M0
+#ISCELL
+basic ipin symbol
+PIN9
+PIN4
+PIN0
+#ISCELL
+basic opin symbol
+PIN6
+#ISCELL
+basic iopin symbolr
+PIN1
+PIN3

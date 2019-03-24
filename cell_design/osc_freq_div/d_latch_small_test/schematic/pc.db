@@ -1,0 +1,19 @@
+#
+osc_freq_div d_latch_small symbol
+I12
+#
+analogLib vdc symbol
+V0
+V3
+#
+analogLib cap symbol
+C1
+C0
+#
+analogLib vpulse symbol
+V4
+V2
+V1
+#ISCELL
+analogLib gnd symbol
+I6

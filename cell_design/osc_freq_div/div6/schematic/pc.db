@@ -1,17 +1,21 @@
 #
-osc_freq_div d_flip_flop symbol
-I2
-I1
-I0
+osc_freq_div d_flip_flop_3 symbol
+I6
+#
+osc_freq_div d_flip_flop_2 symbol
+I5
+#
+osc_freq_div d_flip_flop_1 symbol
+I4
 #ISCELL
 basic ipin symbol
 PIN5
 PIN0
 #ISCELL
 basic opin symbol
+PIN2
 PIN4
 PIN3
-PIN2
 PIN1
 #ISCELL
 basic iopin symbolr
