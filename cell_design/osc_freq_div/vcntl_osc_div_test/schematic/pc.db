@@ -1,0 +1,19 @@
+#
+osc_freq_div vcntl_osc_div symbol
+I14
+#
+analogLib cap symbol
+C7
+C4
+C6
+C5
+C8
+C0
+#
+analogLib vdc symbol
+V2
+V1
+V0
+#ISCELL
+analogLib gnd symbol
+I6

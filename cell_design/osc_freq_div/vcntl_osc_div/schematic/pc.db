@@ -1,0 +1,21 @@
+#
+osc_freq_div vcntl_relaxation_oscillator symbol
+I3
+#
+osc_freq_div div6 symbol
+I1
+#ISCELL
+basic opin symbol
+PIN5
+PIN6
+PIN3
+PIN2
+PIN1
+PIN0
+#ISCELL
+basic iopin symbolr
+PIN4
+PIN7
+#ISCELL
+basic ipin symbol
+PIN8

@@ -1,21 +1,21 @@
 #
 osc_freq_div vcntl_inverter symbol
-I3
+I7
+I6
 #
 analogLib cap symbol
 C0
 #
 analogLib res symbol
 R1
-R0
-#
-osc_freq_div inverter symbol
-I1
-I0
 #ISCELL
 basic ipin symbol
-PIN0
 PIN3
 #ISCELL
+basic iopin symbolr
+PIN0
+PIN1
+#ISCELL
 basic opin symbol
+PIN4
 PIN2
